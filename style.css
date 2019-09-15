@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Concert+One&display=swap');
+html, body{
+    background-color: rgb(23, 100, 223);
+    text-align: center;
+    min-width:300px;
+    font-family: 'Anton', sans-serif;
+    color:#FCF6F5FF;
+    font-size:1rem;
+  }
+ 
+  #title{
+    background-color:#ee1127;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Concert One', cursive;
+  }
+  
+  #form-outer{
+    width: 70%;
+    margin: 0 auto;
+    max-width: 900px;
+  }
+  
+  .labels {
+    display: inline-block;
+    text-align: left;
+    width:40%;
+    padding:5px;
+    margin-top:20px;
+    vertical-align:center;
+  }
+  
+  .rightTab {
+    display: inline-block;
+    text-align: left;
+    width:45%;
+    vertical-align: middle;
+  }
+  
+  .rowTab{
+    margin: 10px;
+  }
+  
+  input[type=text], input[type=email], input[type=number] {
+    width:auto;
+    padding: 12px ;
+    margin: 3px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #0082c8;
+    background: inherit;
+    color:white;
+  }
+  #dropdown{
+    width:auto;
+    padding: 12px ;
+    margin: 3px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #0082c8;
+    background: inherit;
+    color:black;
+  }
+  
+  #box-inner, fieldset{
+     border: 1px solid rgb(200, 200, 250);
+     box-shadow: 0 10px 40px rgba(200, 200, 250, 0.3); 
+     
+  }
+  
+  #box-inner{
+     margin-top: 30px;
+     margin-bottom: 30px;
+  }
+  
+  .radio, .checkbox{  
+    display: block;
+    position: relative;
+    left:-40px;
+    margin-bottom:10px;
+  }
+  
+  ul{
+    list-style: none;
+  }
+  
+  #comments{
+    height:70px; 
+    width:100%;
+    resize:vertical; 
+  }
+  legend{
+      color:rgb(235, 235, 235);
+  }
+  
+  #submit{
+    background-color: #0082c8;
+    color: white;
+    font-size:25px;
+    font-family: Lobster;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom:30px;
+    box-shadow: 0 10px 40px rgba(200, 200, 250, 0.3);
+  }
+  
+  #submit:hover{
+    background-color: #17972c;
+  }
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(73, 197, 42);
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(73, 197, 42);;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(73, 197, 42);;
+  }
+  
+  @media (max-width: 550px){
+    .rightTab{
+      float:left;
+      width: 80%;
+    }
+    .labels{
+      text-align:left;
+      width:100%; 
+    }
+    #box-inner{
+      height:400px;  
+    } 
+    #comments{
+      height:30px;
+      width:100%;
+    }
+  }
+  
+  
+  

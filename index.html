@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logg.jpg" />
+    <title>İşçi qebul programı</title>
+</head>
+<body>
+    
+<div id="form-outer">
+<h1 id="title">Imaginary Programming Company</h1>
+
+  <form id="survey-form"  action="https:google.com">
+      
+    
+    <div  id="box-inner">
+            <legend>Əsas məlumatlar</legend>
+    <div class="rowTab">
+      <div class="labels">
+          
+        <label id="name-label" for="name">Ad:</label>
+      </div>
+      <div class="rightTab">
+        <input type="text" id="name" name="name" placeholder="Name" required style="color:white;">
+      </div>
+    </div>
+    <div class="rowTab">
+        <div class="labels">
+          <label id="surname-label" for="surname">Soyad:</label>
+        </div>
+        <div class="rightTab">
+          <input type="text" id="soyad" name="soyad" placeholder="Surname" required>
+        </div>
+      </div>
+    <div class="rowTab">
+      <div class="labels">
+       <label id="email-label" for="email">Email:</label>
+      </div>
+      <div class="rightTab">
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+    </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label id="number-label" for="number">Yaş:</label>
+      </div>
+      <div class="rightTab">
+        <input type="number" id="number" min="18" max="45" name="age" placeholder="Age" required>
+      </div>
+    </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label for="dropdown">Mövqe:</label>
+      </div>
+      <div class="rightTab">
+         <select id="dropdown" name="position">
+          <option disabled value>Select job position</option>
+          <option value="fend">Frontend Web Developer</option>
+          <option value="bend">Backend Web Developer</option>
+          <option value="full">Full Stack Developer</option>
+          <option value="designer">Designer</option>
+          <option  value="datasc">Data Scientist</option>
+          <option value="Senior Software Engineer">Senior Software Engineer</option>
+          <option value="Junior Software Engineer">Junior Software Engineer</option>
+          <option value="Intern">Intern</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+    </div>
+    </div>
+ 
+    <fieldset>
+      <legend>İş təcrübənizlə bağlı məlumat.</legend>
+    <div class="rowTab">
+      <div class="labels">
+        <label>İş təcrübəniz :</label>
+      </div>
+          <div class="rightTab">
+            <ul>
+              <li class="radio"><label><input type="radio" name="year" value="1"> 1-3</label></li>
+              <li class="radio"><label><input type="radio" name="year" value="2"> 3-5</label></li>
+              <li class="radio"><label><input type="radio" name="year" value="3"> 5+</label></li>
+              <li class="radio"><label><input type="radio" name="year" value="4"> İş təcrübəm yoxdur</label></li>
+            </ul>
+          </div>
+    </div>
+    </fieldset>
+     <div id="box-inner">
+       <div class="rowTab">
+      <div class="labels">
+        <label for="dil">Bildiyiniz dillər:</label>
+      </div>
+        <div class="rightTab">
+          <ul>
+            <li class="checkbox"><label><input type="checkbox" name="dil" value="1"> English</label><li>
+            <li class="checkbox"><label><input type="checkbox" name="dil" value="2"> Russian</label><li>
+            <li class="checkbox"><label><input type="checkbox" name="dil" value="3"> Spanish</label><li>
+            <li class="checkbox"><label><input type="checkbox" name="dil" value="4"> French</label><li>
+            <li class="checkbox"><label><input type="checkbox" name="dil" value="5"> German</label><li>
+            <li class="checkbox"><label><input type="checkbox" name="dil" value="6">Turkish </label><li>
+          </ul>
+        </div>
+       </div>
+       <div class="rowTab">
+        <div class="labels">
+          <label for="dil">Bildiyiniz programlaşdırma dilləri :</label>
+        </div>
+          <div class="rightTab">
+            <ul>
+              <li class="checkbox"><label><input type="checkbox" name="dil" value="1">HTML/CSS</label><li>
+              <li class="checkbox"><label><input type="checkbox" name="dil" value="2"> Javascript</label><li>
+              <li class="checkbox"><label><input type="checkbox" name="dil" value="3"> Python</label><li>
+              <li class="checkbox"><label><input type="checkbox" name="dil" value="4"> Java</label><li>
+              <li class="checkbox"><label><input type="checkbox" name="dil" value="5"> R</label><li>
+              <li class="checkbox"><label><input type="checkbox" name="dil" value="6">C</label><li>
+            </ul>
+          </div>
+         </div>
+           <div class="rowTab">
+      <div class="labels">
+        <label for="comments">Özünüz ve iş təcrübəniz haqqında qısa məlumat:</label>
+      </div>
+        <div class="rightTab">
+    <textarea id="comments" name="comment" placeholder="Write something.." maxlength="1000" ></textarea>  
+      </div>
+    </div>
+     </div>
+   
+    </div>
+</form>
+<a href="index.html"><button id="submit" type="submit">Submit/Göndər</button>  </a>
+</div>
+
+<footer>Hamid Hamidzade</footer>
+</body>
+</html>
